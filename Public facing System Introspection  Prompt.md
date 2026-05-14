@@ -1,4 +1,7 @@
 
+Shared rules:
+
+```text
 Facts only.
 Inspect only the provided workspace/repository.
 Cite file and line numbers for important claims.
@@ -530,4 +533,6 @@ Required sections:
 8. Failure/error behavior
 9. Tests
 10. Open factual questions
+
+
 
