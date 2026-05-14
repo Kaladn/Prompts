@@ -1,17 +1,4 @@
-Absolutely. The current pack is strong, but it assumes *your* architecture, your vocabulary, and your workspace discipline. For strangers, we keep the spine but remove AnchorWorks-specific assumptions, while preserving the proof standard: facts only, workspace only, cite file/line, classify implemented vs implied, active vs dormant, unknowns explicit. 
 
-Here’s the stranger-friendly version:
-
-````markdown
-# FACTUAL CODEBASE AUDIT PROMPT PACK v1.0
-
-Use these prompts one at a time. Each prompt has one job and one proof standard.
-
-This pack is for auditing any software project without guessing, over-claiming, or turning code review into advice.
-
-Shared rules:
-
-```text
 Facts only.
 Inspect only the provided workspace/repository.
 Cite file and line numbers for important claims.
@@ -544,23 +531,3 @@ Required sections:
 9. Tests
 10. Open factual questions
 
----
-
-Tiny law:
-
-```text
-A prompt pack is useful only when each prompt has one job and one proof standard.
-```
-
-```
-
-Main changes I made:
-
-- Replaced AnchorWorks-specific terms like Canonical, phrase lane, visual sidecar, count memory, graph topology with generic data/store labels.
-- Added common categories strangers will need: dependencies, startup/readiness, databases/object stores, credentials, external services.
-- Kept your best law intact: no claims without receipts.
-- Kept the “active vs dormant” classification, because that’s the gold in this pack.
-- Removed system-specific assumptions while still letting the prompt work on AnchorWorks, web apps, CLIs, Python projects, Node projects, local tools, or enterprise repos.
-
-This version is much more “give this to anyone with a repo” instead of “give this to someone who already lives inside your machine room.”
-```
